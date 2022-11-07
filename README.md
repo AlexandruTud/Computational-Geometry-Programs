@@ -12,4 +12,7 @@ main.c
 
 Demand: Implement a program for binary search.
 ----------------------------------------------------------------------------------------------------------------
+poligonSimplu.java
 
+Demand: A simple polygon is given (it has no self-intersections). For a given point P it is required to determine whether P belongs to the interior of the polygon or P belongs to the exterior of the polygon or P belongs to the border of the polygon. 
+----------------------------------------------------------------------------------------------------------------
