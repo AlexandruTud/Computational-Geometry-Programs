@@ -1,3 +1,4 @@
+import java.awt.Point;
 import java.awt.Polygon;
 import javax.swing.ImageIcon;
 public class poligonSimplu extends javax.swing.JFrame {
@@ -142,7 +143,8 @@ public class poligonSimplu extends javax.swing.JFrame {
         polygon.addPoint(-20,20);
         int x = Integer.parseInt(xPF.getText());
         int y = Integer.parseInt(yPF.getText());
-        resultat.setText("Punctul P("+x+","+y+") este in poligon: "+polygon.contains(x, y));
+        Point p = new Point(x,y);
+        resultat.setText("Punctul P("+x+","+y+") este in poligon: "+polygon.contains(p));
     }//GEN-LAST:event_jButton1MouseClicked
 
     private void xPFKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_xPFKeyTyped
