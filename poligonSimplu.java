@@ -135,7 +135,7 @@ public class poligonSimplu extends javax.swing.JFrame {
     }//GEN-LAST:event_resultatActionPerformed
 
     private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
-        final Polygon polygon = new Polygon();
+        Polygon polygon = new Polygon();
         polygon.addPoint(-20, 0);
         polygon.addPoint(20, 0);
         polygon.addPoint(20, 20);
