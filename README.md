@@ -18,4 +18,5 @@ Demand: A simple polygon is given (it has no self-intersections). For a given po
 ----------------------------------------------------------------------------------------------------------------
 poligonConvex.java
 
-Demand:
+Demand: A convex polygon is given by its vertices. It is required to locate a point inside/outside this structure!
+----------------------------------------------------------------------------------------------------------------
