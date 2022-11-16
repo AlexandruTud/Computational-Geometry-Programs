@@ -1,3 +1,4 @@
+/*Demand: It is requested to implement a program for locating a point in a triangle.*/
 package localizaretriunghi;
 import javax.swing.*;
 public class LocalizareTriunghi {
