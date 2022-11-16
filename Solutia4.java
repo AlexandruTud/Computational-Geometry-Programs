@@ -1,3 +1,6 @@
+/*Demand: There are 3 sets of points in plane A,B,C so that the points of A are on the line of equation y=0, 
+the points of B are on the line of equation y=1, the points of C are on the line of equation y=2. 
+It is required to establish if there are collinear Ai, Bj, Ck.*/
 package solutia4;
 import javax.swing.*;
 import java.awt.*;
