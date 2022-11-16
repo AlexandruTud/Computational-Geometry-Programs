@@ -1,3 +1,4 @@
+/*Demand: A convex polygon is given by its vertices. It is required to locate a point inside/outside this structure!*/
 package poligonconvex;
 import java.awt.Point;
 import javax.swing.JOptionPane;
