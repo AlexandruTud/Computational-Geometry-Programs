@@ -1,2 +1,0 @@
-# Info geometry problems:
-
