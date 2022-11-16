@@ -1,3 +1,5 @@
+/*Demand: A simple polygon is given (it has no self-intersections). For a given point P it is required to determine whether P 
+belongs to the interior of the polygon or P belongs to the exterior of the polygon or P belongs to the border of the polygon.*/
 package poligonsimplufinal;
 import javax.swing.JOptionPane;
 public class PoligonSimpluFinal {
