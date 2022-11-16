@@ -1,6 +1,7 @@
 package poligonsimplufinal;
 import javax.swing.JOptionPane;
 public class PoligonSimpluFinal {
+    private static final double EPS = 1e-9;
     public static void main(String[] args) {
         String pn;int n;
         pn = JOptionPane.showInputDialog("Introduceti cate puncte are poligonul:");
@@ -38,7 +39,7 @@ public class PoligonSimpluFinal {
                     float dy = y[(i+1)%n] - y[i];
                     double inf = Double.POSITIVE_INFINITY;
                     int k;
-                    if(Math.abs(dx)<eps)
+                    if(Math.abs(dx) < EPS)
                         k = (int) inf;
                     else
                         k = (int) (dy/dx);
