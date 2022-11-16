@@ -1,3 +1,4 @@
+/*Demand: Implement a program for binary search.*/
 #include <stdio.h>
 // v = vector
 // l = lungimea vectorului
