@@ -36,7 +36,6 @@ public class PoligonSimpluFinal {
                 }
                 if( xP > x1 && xP <= x2 && (yP < y[i] || yP <= y[(i+1)%n]))
                 {
-                    double eps = 0.000001;
                     float dx = x[(i+1)%n] - x[i];
                     float dy = y[(i+1)%n] - y[i];
                     double inf = Double.POSITIVE_INFINITY;
